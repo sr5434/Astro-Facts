@@ -1,0 +1,122 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Learn fun facts about space.",
+          "examplePhrases": [
+            "Alexa open Astro facts",
+            "Alexa ask astro facts for a fact",
+            "Alexa, launch astro facts"
+          ],
+          "keywords": [
+            "space",
+            "facts",
+            "trivia"
+          ],
+          "name": "astro facts",
+          "description": "Ask for space Facts, and learn about what really matters, like dark matter.\n\nAstro Facts provides fun the whole family can enjoy and is guaranteed to make you smarter.\n\nTo start, just say \"Alexa, launch Astro Facts\" or \"Alexa, open Astro Facts\" to get a fact\".\n\nAt anytime, you can stop by saying \"Alexa, stop\"",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Just say open astro facts, and you will get your fact.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:135728188118:function:e59c2714-bcbf-4fb1-a755-30d672b967e0:Release_2"
+        },
+        "interfaces": [
+          {
+            "supportedViewports": [
+              {
+                "minHeight": 540,
+                "mode": "TV",
+                "shape": "RECTANGLE",
+                "maxHeight": 540,
+                "minWidth": 960,
+                "maxWidth": 960
+              },
+              {
+                "minHeight": 100,
+                "mode": "HUB",
+                "shape": "ROUND",
+                "maxHeight": 599,
+                "minWidth": 100,
+                "maxWidth": 599
+              },
+              {
+                "minHeight": 600,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 959,
+                "minWidth": 960,
+                "maxWidth": 1279
+              },
+              {
+                "minHeight": 600,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 1279,
+                "minWidth": 1280,
+                "maxWidth": 1920
+              },
+              {
+                "minHeight": 100,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 599,
+                "minWidth": 960,
+                "maxWidth": 1279
+              },
+              {
+                "minHeight": 320,
+                "mode": "MOBILE",
+                "shape": "RECTANGLE",
+                "maxHeight": 1920,
+                "minWidth": 600,
+                "maxWidth": 959
+              },
+              {
+                "minHeight": 320,
+                "mode": "MOBILE",
+                "shape": "RECTANGLE",
+                "maxHeight": 1920,
+                "minWidth": 960,
+                "maxWidth": 1279
+              },
+              {
+                "minHeight": 320,
+                "mode": "MOBILE",
+                "shape": "RECTANGLE",
+                "maxHeight": 1920,
+                "minWidth": 1280,
+                "maxWidth": 1920
+              }
+            ],
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

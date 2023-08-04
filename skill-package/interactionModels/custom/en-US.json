@@ -1,0 +1,105 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "astro facts",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetFactIntent",
+          "slots": [],
+          "samples": [
+            "give it to me",
+            "you tell me",
+            "you have something for me",
+            "what\u0027s the trivia",
+            "tell a fact",
+            "can you tell me a fact",
+            "can you give me a fact",
+            "give a fact",
+            "can you tell me trivia",
+            "get a fact",
+            "give me the information",
+            "show a fact",
+            "get me a fact",
+            "can you get me a fact",
+            "can you tell me some information",
+            "can you give me some information",
+            "can you get something",
+            "can you show me a fact",
+            "can you get me some information",
+            "can you give me a space trivia",
+            "show me a fact",
+            "can you give us trivia",
+            "tell me some information",
+            "really",
+            "make me a space",
+            "can you show me some information",
+            "can you get some information",
+            "give us a fact",
+            "what are the trivia",
+            "can you tell us something",
+            "can you give us something",
+            "can you show me some space trivia",
+            "give some information",
+            "can you get me some space trivia",
+            "show me some information",
+            "can you tell us some space trivia",
+            "its a space",
+            "tell something",
+            "tell me some space trivia",
+            "give me some space trivia",
+            "show me some space trivia",
+            "show us a space trivia",
+            "tell a space information",
+            "tell me more about the space",
+            "do you have any trivia",
+            "a fact",
+            "a space fact",
+            "tell me a fact",
+            "tell me a space fact",
+            "give me a fact",
+            "give me a space fact",
+            "tell me trivia",
+            "tell me a space trivia",
+            "give me trivia",
+            "give me a space trivia",
+            "give me some information",
+            "give me some space information",
+            "tell me something",
+            "give me something"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "2"
+}
